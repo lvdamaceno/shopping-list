@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Roboto Mono', monospace;
+}
+
+#app {
+  border: 0.1rem black solid;
+  box-shadow: 1rem 1rem 2rem lightgray;
+  width: 30rem;
+  height: fit-content;
+  margin: 3rem auto;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+#header {
+  text-align: center;
+  padding: 2rem;
+  text-transform: uppercase;
+  background-color: lightgray;
+  font-weight: 500;
+  font-size: 2.4rem;
+}
+
+#wrapper {
+  margin: 1rem 1rem 3rem 1rem;
+}
+
+#list li {
+  list-style: none;
+  padding: 1rem;
+  border-bottom: 0.1rem solid lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#input input {
+  padding: 1rem;
+  border: 0;
+  border-bottom: 0.1rem solid lightgray;
+  width: 100%;
+  font-size: 1.6rem;
+  color: gray;
+}
+
+#input input::placeholder {
+  color: gray;
+  font-size: 1.6rem;
+}
